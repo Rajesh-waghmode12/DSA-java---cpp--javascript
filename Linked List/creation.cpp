@@ -11,6 +11,10 @@ public:
         this->data = data;
         this->next = NULL;
     }
+
+    ~Node(){
+
+    }
 };
 
 void insertAtHead(Node *&head, int data){
@@ -50,6 +54,38 @@ void insertAtPosition(Node* &head , int position , int data){
     Node *nodeToInsert = new Node(data);
     nodeToInsert->next = temp->next;
     temp->next = nodeToInsert;
+}
+
+
+void deleteNode(Node* &head , int position){
+    if(head == nullptr || position <= 0){
+        cout << "Invlalid Deletion" << endl;
+        return;
+    }
+    if(position == 1){
+        Node *temp = head;
+        head = head->next;
+        delete temp;
+        return;
+    }
+
+    Node *prev = nullptr;
+    Node *curr = head;
+    int count = 1;
+    
+    while(count < position && curr != nullptr){
+        prev = curr;
+        curr = curr->next;
+        count++;
+    }
+    if(curr == nullptr){
+        cout << "Invalid Position to Delete" << endl;
+        return;
+    }
+
+    prev->next = curr->next;
+    curr->next = nullptr;
+    delete curr;
 }
 
 void print(Node* &head){
