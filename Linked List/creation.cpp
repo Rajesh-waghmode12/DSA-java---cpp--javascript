@@ -26,6 +26,32 @@ void insertAtTail(Node* &tail , int data){
     tail = tail-> next;
 }
 
+void insertAtPosition(Node* &head , int position , int data){
+    Node *temp = head;
+    int count = 1;
+    
+    if(position <= 0){
+        return;
+    }
+    if(position == 1){
+        insertAtHead(head, data);
+        return;
+    }
+    
+    while(count < position -1 && temp != NULL){
+        count++;
+        temp = temp->next;
+    }
+
+    if(temp == NULL){
+        return;
+    }
+
+    Node *nodeToInsert = new Node(data);
+    nodeToInsert->next = temp->next;
+    temp->next = nodeToInsert;
+}
+
 void print(Node* &head){
     Node *temp = head;
     while(temp != NULL){
@@ -38,9 +64,13 @@ int main(){
 
     Node *head = new Node(23);
     Node *tail = head;
+    insertAtHead(head, 100);
     insertAtTail(tail, 54);
     insertAtTail(tail, 67);
     insertAtTail(tail, 87);
+    insertAtPosition(head, 3, 90);
+    insertAtPosition(head, 1, 90);
+    insertAtPosition(head, 8, 80);
     print(head);
     
 
