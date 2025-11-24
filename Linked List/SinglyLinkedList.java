@@ -42,14 +42,31 @@ public class SinglyLinkedList<T> {
         curruntNode.next = newNode;
         size++;
     }
+
+    public void deleteAtIndex(int index) {
+        
+        Node<T> prev = null;
+        Node<T> curr = head;
+        int count = 1;
+
+        if (index <= 0) {
+            
+        }
+
+        if (index == 1) {
+            
+        }
+    }
+    
     
     public void deleteNode(T data) {
         if (head == null)
             return;
-        if (data == head.data) {
+        if (head.data.equals(data)) {
             Node<T> temp = head;
             head = head.next;
             temp.next = null;
+            size--;
             return;
         }
 
@@ -62,18 +79,40 @@ public class SinglyLinkedList<T> {
             Node<T> temp = currNode.next;
             currNode.next = temp.next;
             temp.next = null;
+            size--;
         }
+    }
+
+
+    public void reverse() {
+        
+        Node<T> prev = null;
+        Node<T> curr = head;
+        Node<T> next = null;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
     }
 
     public boolean search(T data) {
         Node<T> temp = head;
         while (temp != null) {
-            if (temp.data == data) {
+            if (temp.data.equals(data)) {
                 return true;
             }
             temp = temp.next;
         }
         return false;
+    }
+
+    public int size() {
+        return size;
     }
 
     public void print() {
