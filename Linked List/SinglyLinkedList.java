@@ -26,7 +26,7 @@ public class SinglyLinkedList<T> {
         head = newNode;
         size++;
     }
-    
+
     public void insertAtTail(T data) {
         Node<T> newNode = new Node<>(data);
         if (head == null) {
@@ -63,8 +63,7 @@ public class SinglyLinkedList<T> {
         current.next = current.next.next;
         size--;
     }
-    
-    
+
     public void deleteNode(T data) {
         if (head == null)
             return;
@@ -89,9 +88,8 @@ public class SinglyLinkedList<T> {
         }
     }
 
-
     public void reverse() {
-        
+
         Node<T> prev = null;
         Node<T> curr = head;
         Node<T> next = null;
@@ -106,6 +104,33 @@ public class SinglyLinkedList<T> {
         head = prev;
     }
 
+    public void recurReverse() {
+
+        Node<T> prev = null;
+        Node<T> curr = head;
+        Node<T> next = null;
+
+        if (curr == null) {
+            return;
+        }
+
+    }
+
+    public boolean detectLoop() {
+        Node<T> slow = head;
+        Node<T> fast = head;
+
+        while (fast != null || fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
     public boolean search(T data) {
         Node<T> temp = head;
         while (temp != null) {
@@ -129,7 +154,7 @@ public class SinglyLinkedList<T> {
             temp = temp.next;
         }
     }
-    
+
     public static void main(String[] args) {
 
         SinglyLinkedList<String> list = new SinglyLinkedList();
@@ -140,9 +165,7 @@ public class SinglyLinkedList<T> {
         list.deleteNode("Rajesh Waghmode");
         System.out.println(list.head.data);
         list.print();
-        
-        
-        
+
         System.out.println();
         SinglyLinkedList<Integer> anotherList = new SinglyLinkedList<>();
 
@@ -154,7 +177,7 @@ public class SinglyLinkedList<T> {
         anotherList.insertAtTail(2);
         System.out.println(anotherList.size);
         System.out.println(anotherList.search(100));
-
+        anotherList.reverse();
         anotherList.print();
     }
 }
