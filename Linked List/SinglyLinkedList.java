@@ -44,18 +44,24 @@ public class SinglyLinkedList<T> {
     }
 
     public void deleteAtIndex(int index) {
-        
-        Node<T> prev = null;
-        Node<T> curr = head;
-        int count = 1;
-
-        if (index <= 0) {
-            
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Invalid index");
         }
 
-        if (index == 1) {
-            
+        if (index == 0) {
+            head = head.next;
+            size--;
+            return;
         }
+
+        Node<T> current = head;
+
+        for (int i = 0; i < index - 1; i++) {
+            current = current.next;
+        }
+
+        current.next = current.next.next;
+        size--;
     }
     
     
@@ -126,24 +132,29 @@ public class SinglyLinkedList<T> {
     
     public static void main(String[] args) {
 
-        SinglyLinkedList list = new SinglyLinkedList();
+        SinglyLinkedList<String> list = new SinglyLinkedList();
 
-        list.insertAtHead(3);
-        list.insertAtHead(2);
-        list.insertAtHead(1);
-
-        list.insertAtTail(4);
-        list.insertAtTail(5);
-
-        System.out.println("Linked List:");
-        list.print();
-
-        System.out.println("Searching for 3: " + list.search(3));
-        System.out.println("Deleting 3...");
-        list.deleteNode(3);
-
-        System.out.println("Linked List after deletion:");
+        list.insertAtHead("Rajesh Waghmode");
+        list.insertAtHead("Avinash Waghmode");
+        list.insertAtTail("Ganesh Thengal");
+        list.deleteNode("Rajesh Waghmode");
+        System.out.println(list.head.data);
         list.print();
         
+        
+        
+        System.out.println();
+        SinglyLinkedList<Integer> anotherList = new SinglyLinkedList<>();
+
+        anotherList.insertAtHead(23);
+        anotherList.insertAtHead(342);
+        anotherList.insertAtHead(32);
+        anotherList.insertAtTail(44);
+        anotherList.insertAtTail(122);
+        anotherList.insertAtTail(2);
+        System.out.println(anotherList.size);
+        System.out.println(anotherList.search(100));
+
+        anotherList.print();
     }
 }
