@@ -19,7 +19,7 @@ public class SecondLargestAndSecondSmalles {
     }
 
     /*
-     * brute force
+     * better 
      * time complexity: O(N)
      * space complexity: O(1)
      */
@@ -47,7 +47,7 @@ public class SecondLargestAndSecondSmalles {
 
 
     /*
-     * brute force
+     * optimal 
      * time complexity: O(N)
      * space complexity: O(1)
      */
