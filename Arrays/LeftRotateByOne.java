@@ -21,7 +21,7 @@ public class LeftRotateByOne {
     }
     
     /*
-     * brute force
+     * optimal
      * time complexity: O(N)
      * space complexity: O(1)
      */
