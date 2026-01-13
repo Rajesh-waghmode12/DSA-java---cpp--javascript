@@ -1,0 +1,271 @@
+[33mcommit 693fb2b6d34cedf5280bbcd617684fad4cc7603b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mArrays[m[33m, [m[1;31morigin/Arrays[m[33m)[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Jan 13 19:41:37 2026 +0530
+
+    Move 0 to end
+
+[33mcommit 13095c31192624a33044125bfff321413520abc5[m
+Merge: 35e0e66 f07f247
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Tue Jan 13 18:30:47 2026 +0530
+
+    Merge pull request #10 from Rajesh-waghmode12/main
+    
+    Merge pull request #8 from Rajesh-waghmode12/Arrays
+
+[33mcommit f07f247d7feffb9a523e012199d26de6a36aa169[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a57800c 35e0e66
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Tue Jan 13 18:30:16 2026 +0530
+
+    Merge pull request #8 from Rajesh-waghmode12/Arrays
+    
+    largest Consecuative
+
+[33mcommit 35e0e66da15866d74f07b0bbd15df4d53cb6e67e[m
+Merge: cb5882e a57800c
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Tue Jan 13 18:29:24 2026 +0530
+
+    Merge pull request #9 from Rajesh-waghmode12/main
+    
+    some problems pull request
+
+[33mcommit cb5882e5b452d7843e4e96bda3ee8553afeb8de2[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Jan 13 18:28:28 2026 +0530
+
+    move by D places
+
+[33mcommit 8f447fceab32468af92d1aa863f2fb4414f2ae80[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Mon Jan 12 19:29:19 2026 +0530
+
+    Rotate Matrix by 90 , SetMatrix 0, Spriral Matrix
+
+[33mcommit 6c24db182fe913f096651116c4fc5a223fa3f4c3[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sun Jan 11 22:12:41 2026 +0530
+
+    largest Consecuative
+
+[33mcommit a57800ca2def9b7becd755a85458c8e607394bac[m
+Merge: f34255a 0ec4c03
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Fri Jan 9 18:28:00 2026 +0530
+
+    Merge pull request #7 from Rajesh-waghmode12/Arrays
+    
+    leaders in an array
+
+[33mcommit 0ec4c03562a3c2978c7b64b6e6bc4a1f266f1733[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Jan 9 06:58:52 2026 +0530
+
+    leaders in an array
+
+[33mcommit f34255ab7cef67182de633ca6e55d1f554a25e4d[m
+Merge: 4cb34c1 0f251af
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Thu Jan 8 19:24:21 2026 +0530
+
+    Merge pull request #6 from Rajesh-waghmode12/Arrays
+    
+    kadanes's algorithm
+
+[33mcommit 0f251af6c30f0138aa926ab41566588799a6087f[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 8 19:21:43 2026 +0530
+
+    kadanes's algorithm
+
+[33mcommit 4cb34c1e9a0afe2aa564237cf1ec8bf9459ebeac[m
+Merge: 215f159 b51efd1
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Wed Jan 7 19:13:39 2026 +0530
+
+    Merge pull request #5 from Rajesh-waghmode12/Arrays
+    
+    buy and sell stock
+
+[33mcommit b51efd1f554f0819c9743421320d9b15e03eee37[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Wed Jan 7 19:10:54 2026 +0530
+
+    sort 0 , 1 and 2's
+
+[33mcommit bc89634311cabb991497837bcfaa2e817f65f2e1[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sun Jan 4 19:38:49 2026 +0530
+
+    buy and sell stock
+
+[33mcommit 215f15910e0c3754df843fe593330bb52210d492[m
+Merge: da99b46 6c17cdf
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Fri Jan 2 13:16:12 2026 +0530
+
+    Merge pull request #4 from Rajesh-waghmode12/Arrays
+    
+    Arrays
+
+[33mcommit 6c17cdfd955c771187b6473b62217c515842e5c2[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Jan 2 13:12:22 2026 +0530
+
+    magority element
+
+[33mcommit b37ed422db59ea13d718e3c3018142549a98dfd2[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Jan 2 12:03:12 2026 +0530
+
+    tow sum problem
+
+[33mcommit da99b46ce756434f2d05bc7285b769f6dfa18121[m
+Merge: 0519718 1617b3c
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Thu Jan 1 14:34:39 2026 +0530
+
+    Merge pull request #3 from Rajesh-waghmode12/Arrays
+    
+    Arrays
+
+[33mcommit 1617b3cb8bebcfaf8263baffe6b9daa17691fcda[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 1 14:33:18 2026 +0530
+
+    left rotate by one place
+
+[33mcommit 31c46924a08ea4a769a7e1ce3842e0630538b2ce[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 1 14:03:52 2026 +0530
+
+    remove duplicates from array
+
+[33mcommit f83808b635538500583202e82f7d9d91d7784fa0[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 1 13:03:28 2026 +0530
+
+    is array sorted or not
+
+[33mcommit 40a5d10baed3232096ae007fad8ea57708d858ba[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 1 12:50:19 2026 +0530
+
+    second largest and second smallest
+
+[33mcommit 05197180d6249b6094bb71f0c170eaaf571eba48[m
+Merge: 3a137a5 84dc4e1
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Thu Jan 1 11:12:13 2026 +0530
+
+    Merge pull request #2 from Rajesh-waghmode12/Arrays
+    
+    find min and max in the array
+
+[33mcommit 84dc4e1eca6a401ad69495d4d79fc05a8edc6090[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Jan 1 11:04:30 2026 +0530
+
+    largest Element in the array
+
+[33mcommit 94b068aec1e80b11f1e090bc2df461b8ece084c5[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Mon Dec 29 19:15:04 2025 +0530
+
+    find min and max in the array
+
+[33mcommit 3a137a5422adb5fcbb8a88d99f79272350ef2766[m
+Merge: adaadd0 da0c536
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Mon Dec 29 17:20:19 2025 +0530
+
+    Merge pull request #1 from Rajesh-waghmode12/Arrays
+    
+    Arrays
+
+[33mcommit da0c536e2e1af6d82df9d0b1a4dd82820b6bcc17[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Mon Dec 29 16:51:24 2025 +0530
+
+    reverse an array
+
+[33mcommit 0d5641645c334c0d729486a3cf468f3a83243003[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Dec 11 18:23:47 2025 +0530
+
+    deleted Main.jva
+
+[33mcommit 0c90d098a3f7210d218207b4b96445904b2e1e5c[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Thu Dec 11 18:20:35 2025 +0530
+
+    added simple Main class with generaing random number for array
+
+[33mcommit adaadd0c5cea51b199be00224f556f423b4054d8[m[33m ([m[1;32mmain[m[33m)[m
+Author: Rajesh-waghmode12 <159807038+Rajesh-waghmode12@users.noreply.github.com>
+Date:   Thu Dec 11 17:55:47 2025 +0530
+
+    Convert Main.js to Main.java with hello world
+    
+    created Main.java for testing
+
+[33mcommit 0afc41de1feb89cc0e363a4b008c15a293461c7e[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sat Nov 29 11:32:43 2025 +0530
+
+    Reverse an array
+
+[33mcommit 20d1b13b8c89b3fb8ff841b6ca049fdf05efa5ec[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Wed Nov 26 00:10:43 2025 +0530
+
+    added loop detection in singlyLinkedList
+
+[33mcommit 5b391545c785b84374795e23530cf8f2e1dde7f4[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Tue Nov 25 23:25:26 2025 +0530
+
+    added some code to linked list
+
+[33mcommit 28f7873305e6b8bd5187109f53515798bbc3fe0d[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Mon Nov 24 20:14:21 2025 +0530
+
+    d
+
+[33mcommit 1f8452979a5d6dfdfcbcd810cbf909c4246d5d97[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sat Nov 22 23:10:34 2025 +0530
+
+    Created a Generic Singly Linked list
+
+[33mcommit 09c3757a6f91a6acacb1f2e427c0bbf90e9b95bb[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Nov 21 19:29:34 2025 +0530
+
+    java class added for singly linked list
+
+[33mcommit c6589f6738bc9abcabfa5dc624ded10f23189d0b[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Nov 21 19:19:06 2025 +0530
+
+    added delete by Position to singly linked list
+
+[33mcommit ca8e0bbef95ccc29c4d652bc9f9c572663b2b25f[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Fri Nov 21 18:57:39 2025 +0530
+
+    just addeed a function of for inserting node in the middle of singly linked list
+
+[33mcommit 531f3e188e4761658a1d4870927a381cc5404c62[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sun Nov 2 17:09:39 2025 +0530
+
+    Added some code of linked list
+
+[33mcommit 97abdeabcde8658a09dd07b9fc1fddb21e4db191[m
+Author: Rajesh-Waghmode <garryneon07@gmail.com>
+Date:   Sun Nov 2 16:33:27 2025 +0530
+
+    Intaial commit
