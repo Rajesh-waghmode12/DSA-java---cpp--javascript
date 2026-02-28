@@ -101,9 +101,9 @@ public class Segregate {
     }
     
     public static void main(String[] args) {
-        
+
         // Creating linked list: 17 -> 15 -> 8 -> 12 -> 10 -> 5 -> 4
-        
+
         Node head = new Node(17);
         head.next = new Node(15);
         head.next.next = new Node(8);
@@ -120,6 +120,10 @@ public class Segregate {
             System.out.print(newHead.data + " ");
             newHead = newHead.next;
         }
+
+       
     }
+    
+    
 
 }
