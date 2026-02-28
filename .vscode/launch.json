@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "LoopLength",
+      "request": "launch",
+      "mainClass": "LoopLength",
+      "projectName": "DSA-java---cpp--javascript_62c7b5a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

@@ -31,7 +31,7 @@ public class ReverseArray {
             System.out.print(array[i] + " ");
         }
     }
-
+    
     
 
     public static void main(String[] args) {
